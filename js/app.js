@@ -56,6 +56,7 @@ petTwo.isFixed = false;
     parentElement.appendChild(article);
 
     var h2 = document.createElement('h2');
+    h2.textContent = petOne.name;
     article.appendChild(h2);
 
     var petParagraph = document.createElement('p');
